@@ -1,0 +1,20 @@
+html {
+    background-color: #212121;
+    color: white;
+}
+#main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#quote {
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    width: 75vh;
+}
+span {
+    font-size: 70px;
+    padding: 0px;
+    margin: 0px;
+}
