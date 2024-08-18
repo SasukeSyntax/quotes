@@ -5,7 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quotes</title>
+    <meta name="description" content="Get motivated. Never give up. Good days are coming.">
     <link rel="stylesheet" href="index.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+  <script src="jqueryindex.js"></script> 
     <!---Google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,8 +19,11 @@
     <div id="main">
         <p id="quote" onclick="newQuote()"><span>"</span><span>"</span></p>
     </div>
+    <div id="arrow">
+    <img src="arrow.svg" alt="Click any key for next quote" style="height: 42px; width: auto;" onclick="newQuote()">
+</div>
     <div style="text-align: center;">
-        <p style="font-size: 20px; font-family: 'Gabarito', sans-serif">Built by NiceSapien</p>
+        <p style="font-size: 20px; font-family: 'Gabarito', sans-serif" onclick="location.href='https://github.com/NiceSapien/quotes';">Built by NiceSapien</p>
     </div>
     <script src="index.js"></script>
 </body>

@@ -1,20 +1,45 @@
 html {
-    background-color: #212121;
+    background-color: black;
     color: white;
+    max-width: 200vh;
 }
+
 #main {
-    height: 100vh;
+    height: 92vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: black;
 }
+
 #quote {
     font-family: 'Playfair Display', serif;
     font-size: 60px;
     width: 75vh;
 }
+
 span {
     font-size: 70px;
     padding: 0px;
     margin: 0px;
+}
+
+#arrow {
+    justify-content: right;
+    text-align: right;
+    width: 100%;
+    margin-bottom: 12px;
+}
+img {
+    padding: 10px;
+}
+img:hover {
+    background-color: #212121;
+    border-radius: 12px;
+}
+
+@media only screen and (max-device-width: 1000px) {
+    #quote {
+        font-size: 46px;
+    }
 }
