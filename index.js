@@ -1,5 +1,6 @@
 const quotes = [
     "The dream is free. The hustle is sold separately.",
+    "A man in pain can destroy anything around him..  But he chooses to destroy himself...",
     "The sun and the moon shine at their own time.",
     "Sometimes, people come in your life just to teach you how to let go.",
     "Make them realize that they lost a diamond while playing with worthless stones.",
